@@ -1,0 +1,31 @@
+public class Uxxankyun {
+    private double koxm_a;
+    private double koxm_b;
+
+    public Uxxankyun(double a, double b){
+        System.out.println("Uxxankyun classi 2 parametrnerov kanch:");
+        koxm_a = a;
+        koxm_b = b;
+    }
+    public double stanalkoxma(){
+        return koxm_a;
+    }
+    public double stanalkoxmb(){
+        return  koxm_b;
+    }
+    public double area(){
+        double s = koxm_a * koxm_b;
+        return s;
+    }
+
+    public double perimeter(){
+        double p = (2 * koxm_a) + (2 * koxm_b);
+        return p;
+    }
+    public boolean equal(Uxxankyun urish){
+        if(urish == null){
+            return false;
+        }
+        return area() == urish.area();
+    }
+}
