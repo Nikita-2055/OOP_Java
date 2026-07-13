@@ -1,0 +1,19 @@
+public class Shrjan {
+    private double r;
+
+    public Shrjan(double rr){
+        System.out.println("Shrjan classi 1 parametrov kanch:");
+        r = rr;
+    }
+    public double stanalr(){
+        return r;
+    }
+    public double area(){
+        double s = 3.14 * r * r;
+        return s;
+    }
+    public double perimeter(){
+        double p = 2 * 3.14 * r;
+        return p;
+    }
+}
