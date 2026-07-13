@@ -1,0 +1,89 @@
+public class Mard {
+    private String anun;
+    private String azganun;
+    private int tariq;
+
+
+    public Mard(String a, String b, int c){
+        System.out.println("Mard classi ereq parametrerov constructori kanch");
+        anun = a;
+        azganun = b;
+        tariq = c;
+    }
+
+//anun,, zganun, 2. anun, tariq, 3.azganun tariq, 4. anun, 5. tariq
+    public Mard(){//non-argument or default constructor
+        System.out.println("non-argument or default constructors call");
+    }
+
+
+
+
+
+    public Mard(String v1,String a1){
+        System.out.println("Anun ev azganun constructori kanch:");
+        anun = v1;
+        azganun = a1;
+    }
+    public Mard(String v2,int a2){
+        System.out.println("Anun ev tariq consturctori kanch:");
+        anun = v2;
+        tariq = a2;
+    }
+    public Mard(int a3,String v3){
+        System.out.println("tariq ev azganun constructori kanch:");
+        tariq = a3;
+        azganun = v3;
+    }
+    public Mard(String v4){
+        System.out.println("Anun constructori kanch:");
+        anun = v4;
+    }
+    public Mard(int a5){
+        System.out.println("tariq constructori kanch:");
+        tariq = a5;
+    }
+//եթե նույն ձևի ,նոյն մեթոդով գրվի լինկեդլիստի իքուալս ֆունկցիան, ինչ խնդիր կառաջանա, բացտրել գծագրի վրա
+    public boolean equals(Mard b){
+        if(b == null){
+            return false;
+        }
+        return anun.equals(b.anun) && azganun.equals(b.azganun) && tariq == b.tariq;
+
+    }
+
+    //Mard a("aaa", "bbb", 15); Mard b("aaa", "bbb", 15); if(a.equals(b)){
+
+    public void talAnun(String s){ //anuni setter
+        anun = s;
+    }
+
+    public String stanalAnune(){ //anune getter
+        return anun;
+    }
+    public void talAzganun(String s){
+        azganun = s;
+    }
+    public String stanalAzganun(){
+        return azganun;
+    }
+    public void talTariq(int t){
+        if(t<0) {
+            tariq = 0;
+        }else{
+            tariq = t;
+        }
+
+    }
+    public int stanalTariq(){
+        return tariq;
+    }
+
+
+    public void print(){
+        System.out.println("anun: "+anun);
+        System.out.println("azganun: "+azganun);
+        System.out.println("tariq: "+tariq);
+    }
+
+}
