@@ -1,0 +1,129 @@
+public class Glxavor_class {
+    public static void main(String argv[]) {
+
+        Mard aa = new Mard("aaa", "bbb", 15);
+        Mard bb = new Mard("aaa", "bbb", 15);
+
+        if(bb.equals(aa)){
+            System.out.println("havasar en:");
+        }else{
+            System.out.println("havasar chen");
+        }
+
+        Uxxankyun k = new Uxxankyun(10,20);
+        Uxxankyun k2 = new Uxxankyun(10,20);
+        if (k.equal(k2)){
+            System.out.println("havasar en");
+        }else{
+            System.out.println("Havasar chen");
+        }
+
+      /*  Mard m = new Mard("julk", "barsexyan", 95);
+
+        Mard harevan = new Mard();
+        harevan.talAnun("drastamat");
+        harevan.talAzganun("gevorkian");
+        harevan.talTariq(55);
+        String k = harevan.stanalAnune();
+        String k2 = harevan.stanalAzganun();
+
+        int t = harevan.stanalTariq();
+        System.out.println("harevani tarq: "+t);
+       // harevan.print();
+
+
+        Mard taki_harevan = new Mard("Gevor", "Ghazaryan",20);
+        String k3 = taki_harevan.stanalAnune();
+        System.out.println("taki_harevani anun: "+k3);
+        String k4 = taki_harevan.stanalAzganun();
+        System.out.println("taki_harevani azganun: "+k4);
+        int t2 = taki_harevan.stanalTariq();
+        System.out.println("taki_harevani tarq: "+t2);
+
+
+        //taki_harevan.print();
+
+
+        Mard verevi_harevan = new Mard();
+
+        verevi_harevan.talAnun("Poxos");
+        String k5 = verevi_harevan.stanalAnune();
+        System.out.println("taki_harevani anun: "+k5);
+        verevi_harevan.talAzganun("Poxosyan");
+        String k6 = verevi_harevan.stanalAzganun();
+        System.out.println("taki_harevani azganun: "+k6);
+        verevi_harevan.talTariq(43);
+        int t3 = verevi_harevan.stanalTariq();
+        System.out.println("taki_harevani tarq: "+t3);
+
+        //verevi_harevan.print();
+
+        //Qarakusi, Uxxankyun, Shrjan, , area() perimeter()  area(), length()
+
+        Qarakusi qarakusi = new Qarakusi(4.5);
+        double tiv = qarakusi.stanalkox();
+        double s1 =  qarakusi.area(tiv);
+        double p1 = qarakusi.perimeter(tiv);
+        System.out.println("Qarakusu makeresy = "+s1);
+        System.out.println("Qarakusu paragicy = "+p1);
+
+        Uxxankyun uxxankyun = new Uxxankyun(6.7,4.1);
+        double s2 = uxxankyun.area();
+        double p2 = uxxankyun.perimeter();
+        System.out.println("Uxxankyan makeresy = "+s2);
+        System.out.println("Uxxankyan paragicy = "+p2);
+
+        Shrjan shrjan = new Shrjan(15.5);
+        double s3 = shrjan.area();
+        double p3 = shrjan.perimeter();
+        System.out.println("Shrjani makeresy = "+s3);
+        System.out.println("Shrjani paragicy = "+p3);
+
+        int a[] = {10, 20, 30, 40, 50, 60, 70};
+
+        int b[] = a;
+
+        b[0] = 777;
+        b[3] = 333;
+
+        for(int i=0; i<a.length; i++){
+            System.out.println(a[i]);
+        }
+
+
+
+//anun,, zganun, 2. anun, tariq, 3.azganun tariq, 4. anun, 5. tariq
+        Mard mard1 = new Mard("Gor","Mirzoyan");
+        String v1 = mard1.stanalAnune();
+        System.out.println("mard1 anun: "+v1);
+        String a1 = mard1.stanalAzganun();
+        System.out.println("mard1 azganun: "+a1);
+
+        Mard mard2 = new Mard("Rafo",21);
+        String v2 = mard2.stanalAnune();
+        System.out.println("mard2 anun: "+v2);
+        int a2 = mard2.stanalTariq();
+        System.out.println("mard2 tariq: "+a2);
+
+
+        Mard mard3 = new Mard("Petrosyan", 45);
+        String v3 = mard3.stanalAzganun();
+        System.out.println("mard3 azganun: "+v3);
+        int a3 = mard3.stanalTariq();
+        System.out.println("mard3 tariq: "+a3);
+
+        Mard mard4 = new Mard("Vahram");
+        String v4 = mard4.stanalAnune();
+        System.out.println("mard4 anun: "+v4);
+
+        Mard mard5 = new Mard(55);
+        int a5 = mard5.stanalTariq();
+        System.out.println("mard5 tariq: "+a5);
+
+
+       */
+
+
+
+    }
+}
