@@ -1,0 +1,25 @@
+public class Qarakusi {
+    private double koxm;
+
+    public Qarakusi(double komm){
+        System.out.println("Qarakusi classi 1 parametrov kanch:");
+        koxm = komm;
+    }
+    public void talkox(double tiv){
+        koxm = tiv;
+    }
+    public double stanalkox(){
+        return koxm;
+    }
+
+    public double area(double tiv){
+        double s = koxm * koxm;
+        return s;
+    }
+    public double perimeter(double tiv){
+        double p = 4 * koxm;
+        return p;
+    }
+
+
+}
